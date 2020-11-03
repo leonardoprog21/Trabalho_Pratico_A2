@@ -11,6 +11,7 @@
  */
 
 #include <stdio.h>
+#include "func.c"
 
 #define true 1
 #define false 0
