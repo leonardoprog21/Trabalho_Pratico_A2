@@ -10,10 +10,22 @@ typedef struct _arvore {
 } Arvore ;
 
 void iniciarArvore(Arvore **);
-
-
-
-
-
+void inserirNo(Arvore **, int);
+void lerArquivo(Arvore **);
+void lerDoUsuario(Arvore **);
+void printarNoRaiz(Arvore *);
+void printarNosFolha(Arvore *);
+void printarNosRamo(Arvore *);
+int alturaDaArvore(Arvore *);
+int profundidadeDaArvore(Arvore *);
+int grauDoNo(Arvore *);
+int alturaDoNo(Arvore *);
+int profundidoDoNo(Arvore *);
+void printarDescendentes(Arvore *);
+void printarAncestrais(Arvore *);
+void preOrdem(Arvore *);
+void posOrdem(Arvore *);
+void emOrdem(Arvore *);
+Arvore* buscar(Arvore *, int);
 
 #endif
