@@ -9,7 +9,7 @@ typedef struct _arvore {
     int dado;
 } Arvore ;
 
-
+void iniciarArvore(Arvore **);
 
 
 
