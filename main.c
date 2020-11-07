@@ -10,17 +10,33 @@
  * 
  */
 
-#include <stdio.h>
 #include "func.c"
 
 
 int main() {
 
-    Arvore *tree;
+    Arvore *tree; 
 
-    iniciarArvore(tree); // Gera um nó vazio
-    
+    iniciarArvore(&tree); // Gera um nó vazio
 
+    // Printa o menu e utiliza o valor retornado para iniciar as operacoes
+    switch (printarMenu()) { 
+    case 1:
+        printf("\nLiberando entrada de dados...\n"); // Se usuario escolheu digitar os dados
+        break;
+    case 2:
+        printf("\nAbrindo arquivo...\n"); // Se usuario escolheu ler do arquivo
+        break;
+    case 3:
+        printf("\nBye...\n"); // Se usuario escolheu encerrar
+        exit(0);
+        break;
+    default:
+        printf("\nOpcao nao identificada!\n"); // Se usuario digitou uma opcao invalida
+        exit(0);
+        break;
+    }
 
     return 0;
-}
+    
+} /*----- Fim do Codigo -----*/

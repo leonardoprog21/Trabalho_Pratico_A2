@@ -7,7 +7,7 @@ typedef struct _arvore {
     struct _arvore *esq;
     struct _arvore *dir;
     int dado;
-} Arvore ;
+} Arvore;
 
 void iniciarArvore(Arvore **);
 void inserirNo(Arvore **, int);
