@@ -1,11 +1,29 @@
 #include "arvore.h"
 
-void iniciarArvore() {
+#define true 1
+#define false 0
+
+
+void iniciarArvore(Arvore **tree) {
+
+    *tree = NULL;
+}
+
+void adicionarNo(Arvore **tree) {
+    
+}
+
+void lerArquivo() {
 
 }
 
-void adicionarNo() {
-    
+void lerDoUsuario() {
+
+}
+
+int estaVazia() {
+
+    return false;
 }
 
 Arvore* buscar() {
@@ -24,26 +42,42 @@ void printarNosRamo() {
 
 }
 
-void alturaProfundArvore() {
+void alturaDaArvore() {
 
 }
 
-void grauAlturaProfundidadeNo() {
+void profundidadeDaArvore() {
 
 }
 
-void printarAncestraisEDescendentes() {
+void grauDoNo() {
 
 }
 
-void preOrdem() {
+void alturaDoNo() {
 
 }
 
-void posOrdem() {
+void profundidoDoNo() {
 
 }
 
-void emOrdem() {
+void printarDescendentes() {
+
+}
+
+void printarAncestrais() {
+
+}
+
+void preOrdem() { // Gui 
+
+}
+
+void posOrdem() { // Gui 
+
+}
+
+void emOrdem() { // Gui
 
 }
