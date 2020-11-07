@@ -1,7 +1,7 @@
 /*
- * Program name 
- * Contributors:
+ * Nome do programa : Arvore
  * 
+ * Desenvolvedores
  * Nome: Matheus do carmo Santos RA: 106020 
  * Nome: Matheus Galvani de Camargo RA: 107285
  * Nome: RA:
@@ -13,13 +13,14 @@
 #include <stdio.h>
 #include "func.c"
 
-#define true 1
-#define false 0
 
 int main() {
 
+    Arvore *tree;
 
+    iniciarArvore(tree); // Gera um nó vazio
     
+
 
     return 0;
 }
