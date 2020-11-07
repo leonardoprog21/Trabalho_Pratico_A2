@@ -4,80 +4,84 @@
 #define false 0
 
 
-void iniciarArvore(Arvore **tree) {
+void iniciarArvore(Arvore **tree) { // Inicializa a arvore com valor "vazio"
 
     *tree = NULL;
 }
 
-void adicionarNo(Arvore **tree) {
+void inserirNo(Arvore **tree, int valor) {
     
 }
 
-void lerArquivo() {
+void lerArquivo(Arvore **tree) {
 
 }
 
-void lerDoUsuario() {
+void lerDoUsuario(Arvore **tree) {
 
 }
 
-int estaVazia() {
+void printarMenu() {
+    
+}
+
+int estaVazia(Arvore *tree) {
 
     return false;
 }
 
-Arvore* buscar() {
+Arvore* buscar(Arvore *tree,int valor) {
 
 }
 
-void printarNoRaiz() {
+void printarNoRaiz(Arvore *tree) {
 
 }
 
-void printarNosFolha() {
+void printarNosFolha(Arvore *tree) {
 
 }
 
-void printarNosRamo() {
+void printarNosRamo(Arvore *tree) {
 
 }
 
-void alturaDaArvore() {
+int alturaDaArvore(Arvore *tree) {
 
 }
 
-void profundidadeDaArvore() {
+int profundidadeDaArvore(Arvore *tree) {
 
 }
 
-void grauDoNo() {
+int grauDoNo(Arvore *tree) {
 
 }
 
-void alturaDoNo() {
+int alturaDoNo(Arvore *tree) {
 
 }
 
-void profundidoDoNo() {
+int profundidoDoNo(Arvore *tree) {
 
 }
 
-void printarDescendentes() {
+void printarDescendentes(Arvore *tree) {
 
 }
 
-void printarAncestrais() {
+void printarAncestrais(Arvore *tree) {
 
 }
 
-void preOrdem() { // Gui 
+void preOrdem(Arvore *tree) { // Gui 
 
 }
 
-void posOrdem() { // Gui 
+void posOrdem(Arvore *tree) { // Gui 
 
 }
 
-void emOrdem() { // Gui
+void emOrdem(Arvore *tree) { // Gui
 
 }
