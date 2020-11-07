@@ -4,8 +4,8 @@
 
 typedef struct _arvore {
     struct _arvore *pai;
-    struct _arvore *filho1;
-    struct _arvore *filho2;
+    struct _arvore *esq;
+    struct _arvore *dir;
     int dado;
 } Arvore ;
 
